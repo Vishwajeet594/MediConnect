@@ -1,0 +1,94 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px 0 0px 40px; 
+  margin: 50px 120px;
+
+  /* border: 2px solid black; */
+  border-radius: 50px;
+
+  flex-wrap: wrap;
+  overflow: hidden; 
+  
+}
+
+/* TEXT SIDE */
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2b7cff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* IMAGE SIDE */
+
+.hero-image img {
+  width: 600px;
+  display: block;
+}
+
+
+
+.speciality {
+    display: flex;
+    flex-direction: column;
+  margin: 80px 40px;
+    
+  
+}
+.speciality h1 {
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+       /* border: 2px solid black; */
+       margin: 0;
+}
+
+.speciality p {
+    font-size: 18px;
+  color: #555;
+       
+      text-align: center;
+         /* border: 2px solid black; */
+         margin: 0;
+}
+
+.speciality_card {
+
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 40px;
+      /* border: 2px solid black; */
+      
+  
+}
+.card h3{
+    text-align: center;
+}
+.card img{
+    width: 200px;
+    border-radius: 20px;
+  /* border: 2px solid black; */
+}
