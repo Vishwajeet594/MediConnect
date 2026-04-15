@@ -6,6 +6,7 @@ import dentist from "../../assets/images/Dentist.png";
 import skin from "../../assets/images/skin.png";
 import eye from "../../assets/images/eye.png";
 import "./Home.css";
+import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
     <>
@@ -64,6 +65,8 @@ Find Trusted Doctors Easily</h1></div>
 
 
 </section>
+
+   <Footer />
 
     </>
   );
