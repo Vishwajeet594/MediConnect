@@ -35,6 +35,8 @@ Find Trusted Doctors Easily</h1></div>
         <p>Explore trusted specialists across <br/>different medical fields and book appointments easily.</p>
     </div>
 
+  {/* Speciality */}
+   
     <div className="speciality_card">
         <div className="card">
              <img src={heart} alt="heart" />
