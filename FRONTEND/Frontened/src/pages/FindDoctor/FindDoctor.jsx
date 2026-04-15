@@ -16,7 +16,6 @@ const FindDoctor = () => {
   const [selected, setSelected] = useState("All");
   const [search, setSearch] = useState("");
 
-  // 🔥 FILTER LOGIC
   const filteredDoctors = doctors.filter((doc) => {
     return (
       (selected === "All" || doc.type === selected) &&
