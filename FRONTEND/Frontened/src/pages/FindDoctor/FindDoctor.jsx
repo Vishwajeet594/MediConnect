@@ -29,10 +29,9 @@ const FindDoctor = () => {
 
       <div className="container-find-doctor">
 
-        {/* LEFT FILTER */}
+
         <div className="filter-find-doctor">
 
-          {/* SEARCH */}
           <input
             type="text"
             placeholder="Search doctor..."
@@ -40,7 +39,6 @@ const FindDoctor = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
 
-          {/* CATEGORY */}
           {categories.map((cat) => (
             <button
               key={cat}
