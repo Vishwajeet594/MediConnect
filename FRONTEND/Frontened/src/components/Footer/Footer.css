@@ -18,11 +18,8 @@ body {
     max-width: 400px;
 }
 
-.logo-footer {
-    font-size: 24px;
-    font-weight: bold;
-    color: #4f46e5;
-    margin-bottom: 15px;
+.about-footer img {
+   width: 200px;
 }
 
 .content-footer{
@@ -35,6 +32,7 @@ body {
     flex: 1;
     display: flex;
     justify-content: space-around;
+    /* font-weight: 400; */
 }
 
 /* COMPANY */

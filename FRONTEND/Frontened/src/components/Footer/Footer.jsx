@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import "./Footer.css";
+import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
 
       {/* LEFT SECTION */}
       <div className="about-footer">
-        <div className="logo-footer">DOCEASE</div>
+      <Link to="/"><img src={logo} alt="DocEase Logo" /></Link>
         <p className="content-footer">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

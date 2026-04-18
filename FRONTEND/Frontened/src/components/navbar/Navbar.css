@@ -7,9 +7,10 @@
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.logo h2 {
-  color: #2b7cff;
-  font-weight: bold;
+
+
+.logo img {
+  height: 60px;
 }
 
 .nav-links {
