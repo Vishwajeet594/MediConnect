@@ -1,7 +1,19 @@
 html, body, #root {
   font-family: 'Montserrat', sans-serif;
+  min-height: 100%;
+  background: #f5f7fb;
 }
 
 * {
   font-family: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
 }

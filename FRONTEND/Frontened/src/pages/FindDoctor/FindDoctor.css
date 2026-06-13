@@ -114,3 +114,83 @@
 .book-btn-find-doctor:hover {
   background: #357abd;
 }
+
+.doctor-error-find-doctor {
+  grid-column: 1 / -1;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #d9e2f3;
+  background: #ffffff;
+  color: #4d5b7a;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+}
+
+.skeleton-card-find-doctor {
+  min-height: 330px;
+}
+
+.skeleton-image-find-doctor,
+.skeleton-card-find-doctor span {
+  display: block;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #eef3fb 25%, #f8fbff 37%, #eef3fb 63%);
+  background-size: 400% 100%;
+  animation: doctorSkeleton 1.3s ease infinite;
+}
+
+.skeleton-image-find-doctor {
+  height: 220px;
+}
+
+.skeleton-card-find-doctor span {
+  height: 14px;
+  margin-bottom: 12px;
+}
+
+.skeleton-card-find-doctor span:nth-child(1) {
+  width: 45%;
+}
+
+.skeleton-card-find-doctor span:nth-child(2) {
+  width: 72%;
+}
+
+.skeleton-card-find-doctor span:nth-child(3) {
+  width: 60%;
+}
+
+@keyframes doctorSkeleton {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cards-find-doctor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 860px) {
+  .container-find-doctor {
+    flex-direction: column;
+    padding: 28px 18px;
+  }
+
+  .filter-find-doctor {
+    min-width: 0;
+  }
+
+  .cards-find-doctor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .cards-find-doctor {
+    grid-template-columns: 1fr;
+  }
+}
